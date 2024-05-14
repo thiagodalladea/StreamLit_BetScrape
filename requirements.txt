@@ -1,0 +1,8 @@
+streamlit
+re
+pandas
+numpy
+seleniumbase
+selenium
+a_selenium2df
+st_pages
