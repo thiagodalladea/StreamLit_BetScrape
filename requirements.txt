@@ -1,4 +1,7 @@
-streamlit==0.86.0
-pandas==1.3.3
-numpy==1.21.2
-seleniumbase==1.59.1
+streamlit
+pandas
+numpy
+seleniumbase
+selenium
+a_selenium2df
+st_pages
