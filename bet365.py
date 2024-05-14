@@ -7,6 +7,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from a_selenium2df import get_df
+from st_pages import Page, show_pages
+
+
+show_pages(
+    [
+        Page("bet365.py", "Bet365"),
+        Page("betfair.py", "Betfair"),
+        Page("sportingbet.py", "Sporting Bet"),
+        Page("betano.py", "Betano"),
+    ]
+)
 
 
 def get_dataframe(driver, query="*"):
